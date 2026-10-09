@@ -1,0 +1,288 @@
+{
+ "as_of_date": "2026-09-30",
+ "asset_type": "main_assets",
+ "asset_name": "实际增速资产+盈利能力资产",
+ "decision_reason": "主流资产存在，三类主流资产分别选优后整体等权",
+ "decision_score": 2.0,
+ "holding_count": 10,
+ "trends": {
+  "actual_growth_available": true,
+  "expected_growth_available": false,
+  "roe_available": true,
+  "actual_growth_trend": 33.52353751595598,
+  "expected_growth_trend": -7.209046292333994,
+  "roe_trend": 0.6411293152562436,
+  "roe_crowding_high": false
+ },
+ "recommendations": [
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "consensus_growth",
+   "strategy_name": "一致预期增速",
+   "rank": 1,
+   "display_industry_code": "7602020000",
+   "display_industry_name": "化学制品",
+   "industry_old_code": "7602020800",
+   "industry_code": "7602020800000000",
+   "industry_name": "有机硅",
+   "lifecycle_stage_zh": "成熟期",
+   "score": 1.0,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "consensus_growth",
+   "strategy_name": "一致预期增速",
+   "rank": 2,
+   "display_industry_code": "760b020000",
+   "display_industry_name": "中药Ⅱ",
+   "industry_old_code": "760b020100",
+   "industry_code": "760b020100000000",
+   "industry_name": "中药Ⅲ",
+   "lifecycle_stage_zh": "成熟期",
+   "score": 0.9966777408637874,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "consensus_growth",
+   "strategy_name": "一致预期增速",
+   "rank": 3,
+   "display_industry_code": "7606020000",
+   "display_industry_name": "汽车服务",
+   "industry_old_code": "7606020100",
+   "industry_code": "7606020100000000",
+   "industry_name": "汽车经销商",
+   "lifecycle_stage_zh": "停滞期",
+   "score": 0.9933554817275747,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "consensus_growth",
+   "strategy_name": "一致预期增速",
+   "rank": 4,
+   "display_industry_code": "760r010000",
+   "display_industry_name": "通信服务",
+   "industry_old_code": "760r010200",
+   "industry_code": "760r010200000000",
+   "industry_name": "通信工程及服务",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.9900332225913622,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "consensus_growth",
+   "strategy_name": "一致预期增速",
+   "rank": 5,
+   "display_industry_code": "7602040000",
+   "display_industry_name": "塑料",
+   "industry_old_code": "7602040100",
+   "industry_code": "7602040100000000",
+   "industry_name": "其他塑料制品",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.9867109634551495,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "event_composite",
+   "strategy_name": "SUE+SUR+JUMP",
+   "rank": 1,
+   "display_industry_code": "7602010000",
+   "display_industry_name": "化学原料",
+   "industry_old_code": "7602010000",
+   "industry_code": "7602010000000000",
+   "industry_name": "化学原料",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.9328932893289328,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "event_composite",
+   "strategy_name": "SUE+SUR+JUMP",
+   "rank": 2,
+   "display_industry_code": "760s010000",
+   "display_industry_name": "煤炭开采",
+   "industry_old_code": "760s010200",
+   "industry_code": "760s010200000000",
+   "industry_name": "焦煤",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.8767876787678768,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "event_composite",
+   "strategy_name": "SUE+SUR+JUMP",
+   "rank": 3,
+   "display_industry_code": "7602040000",
+   "display_industry_name": "塑料",
+   "industry_old_code": "7602040200",
+   "industry_code": "7602040200000000",
+   "industry_name": "改性塑料",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.8327832783278328,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "event_composite",
+   "strategy_name": "SUE+SUR+JUMP",
+   "rank": 4,
+   "display_industry_code": "7605020000",
+   "display_industry_name": "元件",
+   "industry_old_code": "7605020100",
+   "industry_code": "7605020100000000",
+   "industry_name": "印制电路板",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.8294829482948295,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  },
+  {
+   "month": "2026-09-30",
+   "level": 2,
+   "mode": "detail",
+   "strategy_id": "event_composite",
+   "strategy_name": "SUE+SUR+JUMP",
+   "rank": 5,
+   "display_industry_code": "7601010000",
+   "display_industry_name": "种植业",
+   "industry_old_code": "7601010100",
+   "industry_code": "7601010100000000",
+   "industry_name": "种子",
+   "lifecycle_stage_zh": "成长期",
+   "score": 0.8206820682068207,
+   "weight": null,
+   "next_month_log_return": null,
+   "data_available": true
+  }
+ ],
+ "performance": {
+  "latest_settled_month": "2026-09-30",
+  "strategy_nav": 6.4293906788879145,
+  "benchmark_nav": 3.7654897754479015,
+  "return_1m": 0.0003872648759122299,
+  "return_3m": 0.03881073705932314,
+  "return_6m": 0.013296040083571103,
+  "return_12m": 0.086949744394061
+ },
+ "asset_history": [
+  {
+   "month": "2025-10-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "selected": false
+  },
+  {
+   "month": "2025-11-30",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "selected": false
+  },
+  {
+   "month": "2025-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "selected": false
+  },
+  {
+   "month": "2026-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "selected": false
+  },
+  {
+   "month": "2026-02-28",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "selected": false
+  },
+  {
+   "month": "2026-03-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "selected": false
+  },
+  {
+   "month": "2026-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "selected": false
+  },
+  {
+   "month": "2026-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "selected": false
+  },
+  {
+   "month": "2026-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "selected": false
+  },
+  {
+   "month": "2026-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "selected": false
+  },
+  {
+   "month": "2026-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "selected": false
+  },
+  {
+   "month": "2026-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "selected": true
+  }
+ ],
+ "data_warnings": [
+  "行情数据最新日期：2026-10-08。",
+  "财报/分红/指数/一致预期最新日期：2026-10-08。"
+ ],
+ "has_valid_signal": true,
+ "note": null
+}

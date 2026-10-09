@@ -1,0 +1,10 @@
+pandas
+numpy
+pymysql
+pyarrow
+statsmodels
+scipy
+matplotlib
+openpyxl
+pydantic
+pytest

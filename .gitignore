@@ -1,0 +1,27 @@
+# Local credentials and machine-specific files
+.env
+.env.*
+.DS_Store
+
+# Python caches and test artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Locally extracted / derived research data (large and potentially licensed)
+data/raw/
+data/processed/
+data/processed_backup_*/
+
+# Reproducible local outputs
+output/
+
+# Front-end dependencies and generated bundles
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# Legacy static-site copies; Vite uses frontend/public/data/ instead
+frontend/data/
+frontend/assets/

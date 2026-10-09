@@ -1,0 +1,31 @@
+风格主题研判 · React/Vite 前端
+=============================
+
+这是可维护的 React + TypeScript + Vite 源码，页面只读取本项目内的
+public/data/ 数据快照，不依赖公司 API。
+
+启动方式
+--------
+1. 在本文件夹打开终端。
+2. 首次运行：npm install
+3. 运行：npm run dev
+4. 浏览器访问：http://127.0.0.1:5174
+
+生产发布
+--------
+运行：npm run build
+生成的 dist/ 为可直接部署的静态网站。用本地服务器预览可运行：npm run preview
+并访问：http://127.0.0.1:4174
+
+更新数据
+--------
+请回到 total/ 目录运行：./scripts/refresh_web_data.sh
+刷新后 public/data/ 会被更新；重新打开或刷新浏览器即可加载最新快照。
+
+注意
+----
+- 不要直接双击 index.html；开发和发布时都应通过本地 Web 服务访问。
+- 发送项目源码时不必包含 node_modules/ 或 dist/，保留 package-lock.json 和 public/data/。
+- 当前数据快照最新信号月为 2026-09-30，对应配置月为 2026-10。
+
+仅供研究，不构成投资建议。

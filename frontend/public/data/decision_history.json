@@ -1,0 +1,5119 @@
+{
+ "start": null,
+ "end": null,
+ "count": 213,
+ "items": [
+  {
+   "month": "2009-01-31",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 0,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": null,
+   "expected_growth_trend": null,
+   "roe_trend": null
+  },
+  {
+   "month": "2009-02-28",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 0,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": null,
+   "expected_growth_trend": null,
+   "roe_trend": null
+  },
+  {
+   "month": "2009-03-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 0,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": null,
+   "expected_growth_trend": null,
+   "roe_trend": null
+  },
+  {
+   "month": "2009-04-30",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 0,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": null,
+   "expected_growth_trend": null,
+   "roe_trend": null
+  },
+  {
+   "month": "2009-05-31",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 0,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": null,
+   "expected_growth_trend": null,
+   "roe_trend": null
+  },
+  {
+   "month": "2009-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 30.619498172037595,
+   "expected_growth_trend": null,
+   "roe_trend": -1.3296079963677023
+  },
+  {
+   "month": "2009-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 26.993642194781188,
+   "expected_growth_trend": null,
+   "roe_trend": -1.1982663746177131
+  },
+  {
+   "month": "2009-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 25.834272391889158,
+   "expected_growth_trend": null,
+   "roe_trend": -1.2240552688489537
+  },
+  {
+   "month": "2009-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 26.01825588101414,
+   "expected_growth_trend": 13.058143255777594,
+   "roe_trend": -1.3231382580189432
+  },
+  {
+   "month": "2009-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 19.547205139577727,
+   "expected_growth_trend": 7.0137867533993585,
+   "roe_trend": -0.9416730248045759
+  },
+  {
+   "month": "2009-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 19.59831181245974,
+   "expected_growth_trend": 3.0100461789409394,
+   "roe_trend": -0.46517695003996096
+  },
+  {
+   "month": "2009-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 16.65734342855282,
+   "expected_growth_trend": -0.19933478675804395,
+   "roe_trend": -0.47095903173492104
+  },
+  {
+   "month": "2010-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 16.75944032181158,
+   "expected_growth_trend": 8.41525931518629,
+   "roe_trend": -0.4856724563493877
+  },
+  {
+   "month": "2010-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 15.721862185902154,
+   "expected_growth_trend": 20.372122773307893,
+   "roe_trend": -0.6280171949675939
+  },
+  {
+   "month": "2010-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 13.443822672144478,
+   "expected_growth_trend": 22.08098838962559,
+   "roe_trend": -0.49897749194687435
+  },
+  {
+   "month": "2010-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 18.51163170825754,
+   "expected_growth_trend": 1.3109627313694432,
+   "roe_trend": -0.17691111840591844
+  },
+  {
+   "month": "2010-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 19.610009181291957,
+   "expected_growth_trend": -17.7668265960192,
+   "roe_trend": 0.3817450594273595
+  },
+  {
+   "month": "2010-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 23.54131294672436,
+   "expected_growth_trend": -28.46581514343788,
+   "roe_trend": 0.9135642138834541
+  },
+  {
+   "month": "2010-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 22.95163760080453,
+   "expected_growth_trend": -28.097910352152923,
+   "roe_trend": 1.1506274681750206
+  },
+  {
+   "month": "2010-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 19.601823264408836,
+   "expected_growth_trend": -30.39666870437253,
+   "roe_trend": 1.2344504537714016
+  },
+  {
+   "month": "2010-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 21.066046036797275,
+   "expected_growth_trend": -33.513094463437625,
+   "roe_trend": 1.2026016427291246
+  },
+  {
+   "month": "2010-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -10.015937897437027,
+   "expected_growth_trend": -30.43339600957259,
+   "roe_trend": 1.0716560746663113
+  },
+  {
+   "month": "2010-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -33.7698818114186,
+   "expected_growth_trend": -27.663871047734006,
+   "roe_trend": 0.6404632868214613
+  },
+  {
+   "month": "2010-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -59.28466990402612,
+   "expected_growth_trend": -24.43671747176532,
+   "roe_trend": 0.21011417508723085
+  },
+  {
+   "month": "2011-01-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -47.96557507878376,
+   "expected_growth_trend": -23.205288427301184,
+   "roe_trend": -0.125189811647207
+  },
+  {
+   "month": "2011-02-28",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -36.950465379328335,
+   "expected_growth_trend": -23.201938925014872,
+   "roe_trend": -0.15406942264775125
+  },
+  {
+   "month": "2011-03-31",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -35.58277067412229,
+   "expected_growth_trend": -21.339165977032707,
+   "roe_trend": -0.12261452289710206
+  },
+  {
+   "month": "2011-04-30",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -24.41148047400594,
+   "expected_growth_trend": -7.927702239754126,
+   "roe_trend": -0.11457842861693379
+  },
+  {
+   "month": "2011-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -14.370936207521993,
+   "expected_growth_trend": 3.7755960224986325,
+   "roe_trend": 0.039480221600438625
+  },
+  {
+   "month": "2011-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 1.225996703582382,
+   "expected_growth_trend": 16.110139934178534,
+   "roe_trend": 0.3834671346433076
+  },
+  {
+   "month": "2011-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -10.420534012563621,
+   "expected_growth_trend": 15.301340140116082,
+   "roe_trend": 0.760889126583379
+  },
+  {
+   "month": "2011-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -19.719557000438243,
+   "expected_growth_trend": 14.130376713814996,
+   "roe_trend": 0.932000148567603
+  },
+  {
+   "month": "2011-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -19.13986421414961,
+   "expected_growth_trend": 9.374257156973073,
+   "roe_trend": 0.9425819875301329
+  },
+  {
+   "month": "2011-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -16.38204088511219,
+   "expected_growth_trend": 4.074108663566676,
+   "roe_trend": 0.8189421542813271
+  },
+  {
+   "month": "2011-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -15.289585978756776,
+   "expected_growth_trend": 2.9554095608181967,
+   "roe_trend": 0.6168822442342226
+  },
+  {
+   "month": "2011-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -24.611335556923848,
+   "expected_growth_trend": 1.462713782708164,
+   "roe_trend": 0.3677614806835443
+  },
+  {
+   "month": "2012-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -25.92852523590338,
+   "expected_growth_trend": 1.1268196679835398,
+   "roe_trend": 0.12666648267208913
+  },
+  {
+   "month": "2012-02-29",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -27.086773609307613,
+   "expected_growth_trend": -1.4347318640927256,
+   "roe_trend": -0.040043327828470865
+  },
+  {
+   "month": "2012-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -24.88410793691395,
+   "expected_growth_trend": 1.1852692924038877,
+   "roe_trend": -0.32596997087643587
+  },
+  {
+   "month": "2012-04-30",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -13.502403431340895,
+   "expected_growth_trend": -5.158161262379622,
+   "roe_trend": -0.4857682325976036
+  },
+  {
+   "month": "2012-05-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -2.5903123989008634,
+   "expected_growth_trend": -8.140439844200813,
+   "roe_trend": -0.5155624997605308
+  },
+  {
+   "month": "2012-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 8.694466498641361,
+   "expected_growth_trend": -16.08766650627581,
+   "roe_trend": -0.4462881347496577
+  },
+  {
+   "month": "2012-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 10.673118220548986,
+   "expected_growth_trend": -15.08594633749314,
+   "roe_trend": -0.3805578575985358
+  },
+  {
+   "month": "2012-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 10.090667029389436,
+   "expected_growth_trend": -12.424821545331127,
+   "roe_trend": -0.5629286280168664
+  },
+  {
+   "month": "2012-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 5.198791789537154,
+   "expected_growth_trend": -7.048549244422844,
+   "roe_trend": -0.5332153014652157
+  },
+  {
+   "month": "2012-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -1.2222016238749802,
+   "expected_growth_trend": 0.8022824462433107,
+   "roe_trend": -0.684813006689108
+  },
+  {
+   "month": "2012-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -6.971036659124394,
+   "expected_growth_trend": 4.991843010430131,
+   "roe_trend": -0.7362335743778203
+  },
+  {
+   "month": "2012-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.529872691594392,
+   "expected_growth_trend": 8.608658639391763,
+   "roe_trend": -0.9783570743924273
+  },
+  {
+   "month": "2013-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.586256544592743,
+   "expected_growth_trend": 9.270165911056324,
+   "roe_trend": -1.071981007986416
+  },
+  {
+   "month": "2013-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 0.9783894399089661,
+   "expected_growth_trend": 9.054407588982798,
+   "roe_trend": -0.9488757038314475
+  },
+  {
+   "month": "2013-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 6.002776839529304,
+   "expected_growth_trend": 4.962990664439161,
+   "roe_trend": -0.8744311991631974
+  },
+  {
+   "month": "2013-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 12.129397695103762,
+   "expected_growth_trend": 9.70270879027646,
+   "roe_trend": -0.5349146700180256
+  },
+  {
+   "month": "2013-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 14.898905559946115,
+   "expected_growth_trend": 15.528741597483844,
+   "roe_trend": -0.3642836430610359
+  },
+  {
+   "month": "2013-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 16.71681719473213,
+   "expected_growth_trend": 23.786273601749258,
+   "roe_trend": -0.08000516656818846
+  },
+  {
+   "month": "2013-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 3.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 15
+   },
+   "actual_growth_trend": 14.122895824726129,
+   "expected_growth_trend": 24.466724299817542,
+   "roe_trend": 0.03711940902912403
+  },
+  {
+   "month": "2013-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 3.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 15
+   },
+   "actual_growth_trend": 4.578149776789701,
+   "expected_growth_trend": 18.84277731702926,
+   "roe_trend": 0.11037991410445258
+  },
+  {
+   "month": "2013-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -0.31998736351923185,
+   "expected_growth_trend": 13.561954460107074,
+   "roe_trend": 0.2139494617917599
+  },
+  {
+   "month": "2013-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -6.564312619074855,
+   "expected_growth_trend": 3.155727359405688,
+   "roe_trend": 0.16327638300654002
+  },
+  {
+   "month": "2013-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -11.443838654250413,
+   "expected_growth_trend": -1.4850859522752273,
+   "roe_trend": 0.11370536262436914
+  },
+  {
+   "month": "2013-12-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -15.996525422389169,
+   "expected_growth_trend": -6.98838971827999,
+   "roe_trend": -0.052819704902482556
+  },
+  {
+   "month": "2014-01-31",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -16.85169764364423,
+   "expected_growth_trend": -9.432403352065506,
+   "roe_trend": -0.23956458405237768
+  },
+  {
+   "month": "2014-02-28",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -10.09004450020285,
+   "expected_growth_trend": -8.033983838616507,
+   "roe_trend": -0.41435298647810725
+  },
+  {
+   "month": "2014-03-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.414581058814861,
+   "expected_growth_trend": -3.0088923331566377,
+   "roe_trend": -0.5167159481751895
+  },
+  {
+   "month": "2014-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -6.303727651725268,
+   "expected_growth_trend": 6.461110729705268,
+   "roe_trend": -0.5015564154385963
+  },
+  {
+   "month": "2014-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.143772148252964,
+   "expected_growth_trend": 12.166686999614228,
+   "roe_trend": -0.3851588712406304
+  },
+  {
+   "month": "2014-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.526618949237985,
+   "expected_growth_trend": 17.197187458239682,
+   "roe_trend": -0.2974908693878682
+  },
+  {
+   "month": "2014-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -4.173872280921756,
+   "expected_growth_trend": 17.916528426520358,
+   "roe_trend": -0.012420501912330906
+  },
+  {
+   "month": "2014-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -6.804287269591725,
+   "expected_growth_trend": 22.482308193013665,
+   "roe_trend": 0.1402107789507987
+  },
+  {
+   "month": "2014-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -6.1849172180343714,
+   "expected_growth_trend": 27.264351849076263,
+   "roe_trend": 0.24325196630508827
+  },
+  {
+   "month": "2014-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -7.5352735733403335,
+   "expected_growth_trend": 22.595206554680402,
+   "roe_trend": 0.022266460957901302
+  },
+  {
+   "month": "2014-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -5.478823059511853,
+   "expected_growth_trend": 14.024453629577692,
+   "roe_trend": -0.22539339452278995
+  },
+  {
+   "month": "2014-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.226650613838359,
+   "expected_growth_trend": 5.039427538945176,
+   "roe_trend": -0.38669522834457837
+  },
+  {
+   "month": "2015-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -9.719099867999176,
+   "expected_growth_trend": 6.0686464241124725,
+   "roe_trend": -0.5633740424834617
+  },
+  {
+   "month": "2015-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -6.164289133410705,
+   "expected_growth_trend": 11.523750333637878,
+   "roe_trend": -0.5192308854985743
+  },
+  {
+   "month": "2015-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -3.0858738210407353,
+   "expected_growth_trend": 14.57671698067486,
+   "roe_trend": -0.6199712584801862
+  },
+  {
+   "month": "2015-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 14.863790342654,
+   "expected_growth_trend": 7.934888941783157,
+   "roe_trend": -0.5933619336934797
+  },
+  {
+   "month": "2015-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 26.70253943268952,
+   "expected_growth_trend": -2.921566426685928,
+   "roe_trend": -0.7193203241973496
+  },
+  {
+   "month": "2015-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 39.54255081278001,
+   "expected_growth_trend": -12.243090940110164,
+   "roe_trend": -0.6671152394648878
+  },
+  {
+   "month": "2015-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 36.50681497690209,
+   "expected_growth_trend": -11.502124519374831,
+   "roe_trend": -0.6265021563857474
+  },
+  {
+   "month": "2015-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 39.35978331355332,
+   "expected_growth_trend": -11.047936579706999,
+   "roe_trend": -0.43048128565899013
+  },
+  {
+   "month": "2015-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 42.442687979287285,
+   "expected_growth_trend": -13.569542188999634,
+   "roe_trend": -0.20660155192314988
+  },
+  {
+   "month": "2015-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 41.074011180496285,
+   "expected_growth_trend": -8.999215518859586,
+   "roe_trend": 0.14653289952230963
+  },
+  {
+   "month": "2015-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 37.798580577136306,
+   "expected_growth_trend": -3.349766501763611,
+   "roe_trend": 0.3614858023950802
+  },
+  {
+   "month": "2015-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 3.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 15
+   },
+   "actual_growth_trend": 34.47831662789642,
+   "expected_growth_trend": 2.520421470272254,
+   "roe_trend": 0.4047651163856347
+  },
+  {
+   "month": "2016-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 36.872411716430406,
+   "expected_growth_trend": -0.5056918076458317,
+   "roe_trend": 0.37001227855353136
+  },
+  {
+   "month": "2016-02-29",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 33.81758183575843,
+   "expected_growth_trend": -3.129243640182011,
+   "roe_trend": 0.09445664376489127
+  },
+  {
+   "month": "2016-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 47.37625111940949,
+   "expected_growth_trend": 2.0143116598909216,
+   "roe_trend": -0.0696667395765811
+  },
+  {
+   "month": "2016-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 36.152340031841106,
+   "expected_growth_trend": 5.361178686941145,
+   "roe_trend": -0.25800641208315866
+  },
+  {
+   "month": "2016-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 33.30023661121555,
+   "expected_growth_trend": 6.5456298174859455,
+   "roe_trend": -0.20667755622733353
+  },
+  {
+   "month": "2016-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 9
+   },
+   "actual_growth_trend": 10.077035934407377,
+   "expected_growth_trend": 5.278711275385035,
+   "roe_trend": -0.1936098915090234
+  },
+  {
+   "month": "2016-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 9
+   },
+   "actual_growth_trend": 11.250043765707574,
+   "expected_growth_trend": 5.488085345409473,
+   "roe_trend": -0.3072818587159194
+  },
+  {
+   "month": "2016-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -3.9305535729760663,
+   "expected_growth_trend": 3.964623216808377,
+   "roe_trend": -0.3572243032879001
+  },
+  {
+   "month": "2016-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -29.32504745372387,
+   "expected_growth_trend": 1.2880822742525027,
+   "roe_trend": -0.46819995977027773
+  },
+  {
+   "month": "2016-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -47.030354544484794,
+   "expected_growth_trend": 2.1438808170521213,
+   "roe_trend": -0.3412507517329981
+  },
+  {
+   "month": "2016-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -57.77105726104068,
+   "expected_growth_trend": 4.278248437237664,
+   "roe_trend": -0.28594987780670955
+  },
+  {
+   "month": "2016-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -48.772963835671504,
+   "expected_growth_trend": 7.830919098740395,
+   "roe_trend": -0.2279270969196716
+  },
+  {
+   "month": "2017-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -48.24412795558348,
+   "expected_growth_trend": 9.280487227296845,
+   "roe_trend": -0.2029372113051764
+  },
+  {
+   "month": "2017-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -33.74538226950574,
+   "expected_growth_trend": 5.463666683741735,
+   "roe_trend": -0.09190873204815375
+  },
+  {
+   "month": "2017-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -26.49347251640023,
+   "expected_growth_trend": -6.788499340473834,
+   "roe_trend": 0.19726595919415857
+  },
+  {
+   "month": "2017-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 20.527641469645175,
+   "expected_growth_trend": -17.655512733256217,
+   "roe_trend": 0.28905099242898835
+  },
+  {
+   "month": "2017-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 57.1731422768116,
+   "expected_growth_trend": -19.929528056301507,
+   "roe_trend": 0.3275509817253184
+  },
+  {
+   "month": "2017-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 98.42803071595947,
+   "expected_growth_trend": -19.4803921765361,
+   "roe_trend": 0.3327042869667842
+  },
+  {
+   "month": "2017-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 104.39671085465525,
+   "expected_growth_trend": -18.64002607551498,
+   "roe_trend": 0.41998630448789065
+  },
+  {
+   "month": "2017-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 99.0877758243459,
+   "expected_growth_trend": -17.309065282403793,
+   "roe_trend": 0.4275677117519354
+  },
+  {
+   "month": "2017-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 91.06229106959472,
+   "expected_growth_trend": -14.43487559127368,
+   "roe_trend": 0.3499011654879851
+  },
+  {
+   "month": "2017-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 26.47246621686378,
+   "expected_growth_trend": -10.549669712370246,
+   "roe_trend": 0.2639152894781027
+  },
+  {
+   "month": "2017-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -25.098780460559567,
+   "expected_growth_trend": -9.034972269040196,
+   "roe_trend": 0.29604552086591696
+  },
+  {
+   "month": "2017-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -81.40369952953392,
+   "expected_growth_trend": -6.907963737463035,
+   "roe_trend": 0.3005270173650043
+  },
+  {
+   "month": "2018-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -89.95568419208968,
+   "expected_growth_trend": -7.797253416879272,
+   "roe_trend": 0.35068093334533046
+  },
+  {
+   "month": "2018-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -86.19536929757098,
+   "expected_growth_trend": -10.218303474787376,
+   "roe_trend": 0.24658091058914344
+  },
+  {
+   "month": "2018-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -81.82268874414584,
+   "expected_growth_trend": -11.830155728257637,
+   "roe_trend": 0.09910866668362672
+  },
+  {
+   "month": "2018-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -57.13788427772377,
+   "expected_growth_trend": -11.50779082473673,
+   "roe_trend": 0.11779109625406292
+  },
+  {
+   "month": "2018-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -47.69266850790143,
+   "expected_growth_trend": -10.895141706096098,
+   "roe_trend": 0.21687811977589888
+  },
+  {
+   "month": "2018-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -31.319663629978578,
+   "expected_growth_trend": -11.526551378422965,
+   "roe_trend": 0.541173442110388
+  },
+  {
+   "month": "2018-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -31.46104964050261,
+   "expected_growth_trend": -13.049791966579193,
+   "roe_trend": 0.6370212649331481
+  },
+  {
+   "month": "2018-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -30.841462724161573,
+   "expected_growth_trend": -13.129906666208711,
+   "roe_trend": 0.9152093093917095
+  },
+  {
+   "month": "2018-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -27.10147901365397,
+   "expected_growth_trend": -11.151530264929335,
+   "roe_trend": 1.103972958782247
+  },
+  {
+   "month": "2018-10-31",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -16.6032675445864,
+   "expected_growth_trend": -12.139069197948288,
+   "roe_trend": 0.9848235791802793
+  },
+  {
+   "month": "2018-11-30",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -4.22609788243372,
+   "expected_growth_trend": -12.47620978658469,
+   "roe_trend": 0.633909327752022
+  },
+  {
+   "month": "2018-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 2.008101583846752,
+   "expected_growth_trend": -14.145197683792219,
+   "roe_trend": 0.11051072079683877
+  },
+  {
+   "month": "2019-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 3.306730570299351,
+   "expected_growth_trend": -11.456925724603252,
+   "roe_trend": -0.032268156855955965
+  },
+  {
+   "month": "2019-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 3.4668763511974987,
+   "expected_growth_trend": -8.932054576752108,
+   "roe_trend": -0.28263717052939086
+  },
+  {
+   "month": "2019-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 0.6583040842338903,
+   "expected_growth_trend": -3.5516961474218647,
+   "roe_trend": -0.5075952693727892
+  },
+  {
+   "month": "2019-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -3.9633253130685944,
+   "expected_growth_trend": 3.944916895499489,
+   "roe_trend": -0.4495596669053832
+  },
+  {
+   "month": "2019-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -6.852939872295849,
+   "expected_growth_trend": 10.468737927967055,
+   "roe_trend": -0.2730114637726935
+  },
+  {
+   "month": "2019-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.371888705946049,
+   "expected_growth_trend": 13.688121906312546,
+   "roe_trend": 0.07620042780216352
+  },
+  {
+   "month": "2019-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -6.287591752094841,
+   "expected_growth_trend": 11.749658953757148,
+   "roe_trend": -0.004067386671181339
+  },
+  {
+   "month": "2019-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -10.21575874218874,
+   "expected_growth_trend": 13.070935660251564,
+   "roe_trend": 0.1411721869169682
+  },
+  {
+   "month": "2019-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -9.501688428829368,
+   "expected_growth_trend": 13.98504973898821,
+   "roe_trend": 0.34621808102561147
+  },
+  {
+   "month": "2019-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -10.186888930329332,
+   "expected_growth_trend": 17.51110961272977,
+   "roe_trend": 0.5168024193910234
+  },
+  {
+   "month": "2019-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 2,
+    "value_dividend_count": 2,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.400496305828426,
+   "expected_growth_trend": 18.685332030504185,
+   "roe_trend": 0.5842904757054193
+  },
+  {
+   "month": "2019-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -5.698956433287435,
+   "expected_growth_trend": 21.14806323100217,
+   "roe_trend": 0.34129866780147466
+  },
+  {
+   "month": "2020-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -8.213494930754791,
+   "expected_growth_trend": 20.878377919963782,
+   "roe_trend": 0.3312256330218055
+  },
+  {
+   "month": "2020-02-29",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -4.941882569456112,
+   "expected_growth_trend": 19.191313932728434,
+   "roe_trend": 0.11060554952975821
+  },
+  {
+   "month": "2020-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -3.816842420016428,
+   "expected_growth_trend": 14.388624761560266,
+   "roe_trend": -0.05783888918694302
+  },
+  {
+   "month": "2020-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 20.011513414005094,
+   "expected_growth_trend": 9.250921441395832,
+   "roe_trend": -0.49724946931121394
+  },
+  {
+   "month": "2020-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 2,
+    "value_dividend_count": 2,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 34.89990168437552,
+   "expected_growth_trend": 3.2582905614291633,
+   "roe_trend": -0.7443152317449133
+  },
+  {
+   "month": "2020-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 52.678690013674895,
+   "expected_growth_trend": -0.19106760661148314,
+   "roe_trend": -0.8467231490531226
+  },
+  {
+   "month": "2020-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 51.004597814950245,
+   "expected_growth_trend": -0.22965667767039122,
+   "roe_trend": -0.7852363202423795
+  },
+  {
+   "month": "2020-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 45.22164385558216,
+   "expected_growth_trend": 0.8975757708398078,
+   "roe_trend": -0.46288845326865413
+  },
+  {
+   "month": "2020-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 3.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 15
+   },
+   "actual_growth_trend": 39.42160059628179,
+   "expected_growth_trend": 3.2062216822982066,
+   "roe_trend": 0.051346063055461855
+  },
+  {
+   "month": "2020-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 3.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 15
+   },
+   "actual_growth_trend": 9.486994721342342,
+   "expected_growth_trend": 2.0462255244067933,
+   "roe_trend": 0.8834639238307886
+  },
+  {
+   "month": "2020-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -6.457455874115794,
+   "expected_growth_trend": 1.3585583738928335,
+   "roe_trend": 1.2517413206194021
+  },
+  {
+   "month": "2020-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -29.989556994359248,
+   "expected_growth_trend": -1.589929330559471,
+   "roe_trend": 1.491707377323479
+  },
+  {
+   "month": "2021-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -27.721063181754346,
+   "expected_growth_trend": -0.754277277922796,
+   "roe_trend": 1.5515058354751616
+  },
+  {
+   "month": "2021-02-28",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -22.337008384079354,
+   "expected_growth_trend": -5.313865546393117,
+   "roe_trend": 1.4411415881738066
+  },
+  {
+   "month": "2021-03-31",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -12.537098731267378,
+   "expected_growth_trend": -5.2828151275979565,
+   "roe_trend": 1.0380087392591335
+  },
+  {
+   "month": "2021-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 50.90362839554115,
+   "expected_growth_trend": -13.913669272499192,
+   "roe_trend": 0.5767963078684097
+  },
+  {
+   "month": "2021-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 110.28744282602653,
+   "expected_growth_trend": -15.5319100090814,
+   "roe_trend": 0.5146693812924532
+  },
+  {
+   "month": "2021-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 173.69763210006062,
+   "expected_growth_trend": -19.368100682309574,
+   "roe_trend": 0.9004688587106529
+  },
+  {
+   "month": "2021-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 2,
+    "value_dividend_count": 2,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 176.4822943965868,
+   "expected_growth_trend": -18.697811793370846,
+   "roe_trend": 1.1337647927340733
+  },
+  {
+   "month": "2021-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 157.98248953709174,
+   "expected_growth_trend": -18.580998616782892,
+   "roe_trend": 1.0323985333884629
+  },
+  {
+   "month": "2021-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 132.7506089968726,
+   "expected_growth_trend": -20.51321038992367,
+   "roe_trend": 0.7775160854747725
+  },
+  {
+   "month": "2021-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 49.5431539188221,
+   "expected_growth_trend": -18.42670197415694,
+   "roe_trend": 0.5506194442009757
+  },
+  {
+   "month": "2021-11-30",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -19.575184939946894,
+   "expected_growth_trend": -20.80441013176383,
+   "roe_trend": 0.36911799561989866
+  },
+  {
+   "month": "2021-12-31",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -86.54412181225894,
+   "expected_growth_trend": -21.05872575716819,
+   "roe_trend": -0.29363220470174056
+  },
+  {
+   "month": "2022-01-31",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -87.41828029896914,
+   "expected_growth_trend": -23.737710280919174,
+   "roe_trend": -0.8210712309429198
+  },
+  {
+   "month": "2022-02-28",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -67.71198165360437,
+   "expected_growth_trend": -20.47799484873147,
+   "roe_trend": -1.0371892777851386
+  },
+  {
+   "month": "2022-03-31",
+   "asset_type": "value_dividend",
+   "asset_name": "价值红利",
+   "reason": "主流资产缺失且 ROE 拥挤度高，选择价值红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -54.513613392631385,
+   "expected_growth_trend": -21.037737053779423,
+   "roe_trend": -0.6927449433032535
+  },
+  {
+   "month": "2022-04-30",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 2,
+    "value_dividend_count": 2,
+    "selected_count": 2
+   },
+   "actual_growth_trend": -45.95007869365611,
+   "expected_growth_trend": -2.6253758411943977,
+   "roe_trend": -0.4258200704353676
+  },
+  {
+   "month": "2022-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -57.92045791926694,
+   "expected_growth_trend": 13.270384040960096,
+   "roe_trend": -0.10634433699923207
+  },
+  {
+   "month": "2022-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -61.325962611922364,
+   "expected_growth_trend": 30.03302049567118,
+   "roe_trend": 0.22331469561982686
+  },
+  {
+   "month": "2022-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -65.58274349118295,
+   "expected_growth_trend": 30.6508868663785,
+   "roe_trend": 0.43625007563881724
+  },
+  {
+   "month": "2022-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -74.25157973055721,
+   "expected_growth_trend": 25.99794190721957,
+   "roe_trend": 0.6774395169827301
+  },
+  {
+   "month": "2022-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": -74.39571561691858,
+   "expected_growth_trend": 23.431132144262534,
+   "roe_trend": 0.5747788519087393
+  },
+  {
+   "month": "2022-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -60.33562318791249,
+   "expected_growth_trend": 18.811254237905246,
+   "roe_trend": 0.1043359157235706
+  },
+  {
+   "month": "2022-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -39.344708028651496,
+   "expected_growth_trend": 20.922572101199876,
+   "roe_trend": -0.5268849539113774
+  },
+  {
+   "month": "2022-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -28.04202818903383,
+   "expected_growth_trend": 21.745668079672242,
+   "roe_trend": -0.988915201650375
+  },
+  {
+   "month": "2023-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -25.27277963158221,
+   "expected_growth_trend": 21.913146119256226,
+   "roe_trend": -0.922691081289063
+  },
+  {
+   "month": "2023-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": true
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -16.97286531901645,
+   "expected_growth_trend": 18.82880013351138,
+   "roe_trend": -0.8942109817768511
+  },
+  {
+   "month": "2023-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.29241458712761,
+   "expected_growth_trend": 16.274149570232765,
+   "roe_trend": -1.081282443756848
+  },
+  {
+   "month": "2023-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -0.9571478999353076,
+   "expected_growth_trend": 11.022781984404475,
+   "roe_trend": -1.116272524569652
+  },
+  {
+   "month": "2023-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 9
+   },
+   "actual_growth_trend": 0.7582555259472201,
+   "expected_growth_trend": 6.56835502788249,
+   "roe_trend": -1.0110121420699834
+  },
+  {
+   "month": "2023-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 9
+   },
+   "actual_growth_trend": 3.7992925466461713,
+   "expected_growth_trend": 5.141953945125721,
+   "roe_trend": -0.7680532846432122
+  },
+  {
+   "month": "2023-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 3.6107506082847465,
+   "expected_growth_trend": 5.798675587520478,
+   "roe_trend": -0.6854636535501157
+  },
+  {
+   "month": "2023-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 2.072320060500033,
+   "expected_growth_trend": 7.156896613241457,
+   "roe_trend": -0.8246513189658238
+  },
+  {
+   "month": "2023-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 0.8350052294850059,
+   "expected_growth_trend": 5.937596149329892,
+   "roe_trend": -0.7741848817399877
+  },
+  {
+   "month": "2023-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -4.918073716849875,
+   "expected_growth_trend": 5.375749863201548,
+   "roe_trend": -0.6539964269271366
+  },
+  {
+   "month": "2023-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.801721352859516,
+   "expected_growth_trend": 4.465170753538274,
+   "roe_trend": -0.5501958854394857
+  },
+  {
+   "month": "2023-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -15.082754623090523,
+   "expected_growth_trend": 3.8197707645676076,
+   "roe_trend": -0.6385323753564087
+  },
+  {
+   "month": "2024-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -15.674546846006677,
+   "expected_growth_trend": 2.7586196202566384,
+   "roe_trend": -0.7544880345154681
+  },
+  {
+   "month": "2024-02-29",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -15.32530264904159,
+   "expected_growth_trend": 2.2853239404652186,
+   "roe_trend": -0.6157893818958016
+  },
+  {
+   "month": "2024-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 1,
+    "value_dividend_count": 1,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -16.01687138769489,
+   "expected_growth_trend": 2.1453487081925573,
+   "roe_trend": -0.4418053953208112
+  },
+  {
+   "month": "2024-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.856253302412171,
+   "expected_growth_trend": 3.654482750319062,
+   "roe_trend": -0.3679875852464356
+  },
+  {
+   "month": "2024-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -1.5871317446148794,
+   "expected_growth_trend": 3.3995142538615255,
+   "roe_trend": -0.3253206866994649
+  },
+  {
+   "month": "2024-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 4,
+    "value_dividend_count": 4,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 6.12181991034123,
+   "expected_growth_trend": 0.42265130508707216,
+   "roe_trend": -0.132059799140686
+  },
+  {
+   "month": "2024-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 7.305544265653765,
+   "expected_growth_trend": -2.4831997075912398,
+   "roe_trend": 0.019884973124993266
+  },
+  {
+   "month": "2024-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 4.134024496102825,
+   "expected_growth_trend": 8.212031491942696,
+   "roe_trend": -0.06737850993753014
+  },
+  {
+   "month": "2024-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 1.9179291044453635,
+   "expected_growth_trend": 20.565734504285444,
+   "roe_trend": -0.21411922353201618
+  },
+  {
+   "month": "2024-10-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -4.268698646095288,
+   "expected_growth_trend": 43.326278583755595,
+   "roe_trend": -0.24071551875851327
+  },
+  {
+   "month": "2024-11-30",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -5.910534576215127,
+   "expected_growth_trend": 51.693185920385616,
+   "roe_trend": -0.2587568040581729
+  },
+  {
+   "month": "2024-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.078782721939376,
+   "expected_growth_trend": 58.8421042215796,
+   "roe_trend": -0.383382670447844
+  },
+  {
+   "month": "2025-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -8.12787152804006,
+   "expected_growth_trend": 54.89075382043609,
+   "roe_trend": -0.5160074510294219
+  },
+  {
+   "month": "2025-02-28",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -6.517034286863037,
+   "expected_growth_trend": 52.62991259205006,
+   "roe_trend": -0.46413307816194127
+  },
+  {
+   "month": "2025-03-31",
+   "asset_type": "main_assets",
+   "asset_name": "预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -2.298798756317325,
+   "expected_growth_trend": 49.54162853020989,
+   "roe_trend": -0.39878846891471476
+  },
+  {
+   "month": "2025-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 0.7084764449672036,
+   "expected_growth_trend": 39.9472305927535,
+   "roe_trend": -0.4740851133773223
+  },
+  {
+   "month": "2025-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 3,
+    "value_dividend_count": 3,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 3.700598831616901,
+   "expected_growth_trend": 34.59605705916374,
+   "roe_trend": -0.5624787041800943
+  },
+  {
+   "month": "2025-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 2.669003647890378,
+   "expected_growth_trend": 29.129918830672977,
+   "roe_trend": -0.5848004745220692
+  },
+  {
+   "month": "2025-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 5.245934136265362,
+   "expected_growth_trend": 29.500680754695168,
+   "roe_trend": -0.5071001466958762
+  },
+  {
+   "month": "2025-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+预期增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": true,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 3.620246058582609,
+   "expected_growth_trend": 10.79037573624754,
+   "roe_trend": -0.5201901503832733
+  },
+  {
+   "month": "2025-09-30",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -1.5995068871858678,
+   "expected_growth_trend": -4.109413173838902,
+   "roe_trend": -0.5142159695622865
+  },
+  {
+   "month": "2025-10-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -7.000098190451041,
+   "expected_growth_trend": -32.12719937781992,
+   "roe_trend": -0.2503626843296196
+  },
+  {
+   "month": "2025-11-30",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -12.479061320000454,
+   "expected_growth_trend": -42.29817273461276,
+   "roe_trend": -0.00432624999834097
+  },
+  {
+   "month": "2025-12-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -14.175002386909597,
+   "expected_growth_trend": -53.49053807557101,
+   "roe_trend": 0.14740850785312531
+  },
+  {
+   "month": "2026-01-31",
+   "asset_type": "main_assets",
+   "asset_name": "盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -16.88226477989562,
+   "expected_growth_trend": -51.66624535462461,
+   "roe_trend": 0.023208068448722585
+  },
+  {
+   "month": "2026-02-28",
+   "asset_type": "cash",
+   "asset_name": "现金",
+   "reason": "无可用资产信号",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 0
+   },
+   "actual_growth_trend": -12.16143346719366,
+   "expected_growth_trend": -48.96848123191569,
+   "roe_trend": -0.02724062704644581
+  },
+  {
+   "month": "2026-03-31",
+   "asset_type": "quality_dividend",
+   "asset_name": "质量红利",
+   "reason": "主流资产缺失且 ROE 拥挤度不高，选择质量红利防御",
+   "decision_score": 0.0,
+   "branches": {
+    "actual_growth_available": false,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": -2.1722350971788558,
+   "expected_growth_trend": -45.15355055263166,
+   "roe_trend": -0.04608315176534461
+  },
+  {
+   "month": "2026-04-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 1.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": false,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 5
+   },
+   "actual_growth_trend": 14.372980993854526,
+   "expected_growth_trend": -35.55685737769272,
+   "roe_trend": -0.04376206999995702
+  },
+  {
+   "month": "2026-05-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 0,
+    "value_dividend_count": 0,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 24.735708385626197,
+   "expected_growth_trend": -29.73938813820257,
+   "roe_trend": 0.011681709622978431
+  },
+  {
+   "month": "2026-06-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 29.486646139814894,
+   "expected_growth_trend": -21.973831258534915,
+   "roe_trend": 0.13035625684560337
+  },
+  {
+   "month": "2026-07-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 29.620138264682566,
+   "expected_growth_trend": -20.86639101744197,
+   "roe_trend": 0.35318514754371044
+  },
+  {
+   "month": "2026-08-31",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 33.44209550765487,
+   "expected_growth_trend": -11.98342659306843,
+   "roe_trend": 0.5128465476538064
+  },
+  {
+   "month": "2026-09-30",
+   "asset_type": "main_assets",
+   "asset_name": "实际增速资产+盈利能力资产",
+   "reason": "主流资产存在，三类主流资产分别选优后整体等权",
+   "decision_score": 2.0,
+   "branches": {
+    "actual_growth_available": true,
+    "expected_growth_available": false,
+    "roe_available": true,
+    "roe_crowding_high": false
+   },
+   "counts": {
+    "actual_growth_count": 5,
+    "expected_growth_count": 5,
+    "roe_asset_count": 5,
+    "quality_dividend_count": 5,
+    "value_dividend_count": 5,
+    "selected_count": 10
+   },
+   "actual_growth_trend": 33.52353751595598,
+   "expected_growth_trend": -7.209046292333994,
+   "roe_trend": 0.6411293152562436
+  }
+ ]
+}

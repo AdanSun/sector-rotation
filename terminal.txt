@@ -1,0 +1,12 @@
+cd "/Users/sunny/Documents/Internship/2607中银/0709自下而上大势研判/total"
+
+./scripts/refresh_web_data.sh
+
+python3 -c "import json; print('最新信号月：', json.load(open('frontend/public/data/meta.json'))['latest_month'])"
+
+cd "/Users/sunny/Documents/Internship/2607中银/0709自下而上大势研判/total/frontend"
+
+npm run dev
+
+http://127.0.0.1:5174
+
