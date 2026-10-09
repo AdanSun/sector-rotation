@@ -22,13 +22,21 @@ npm run preview -- --host 127.0.0.1 --port 4174
 
 构建产物位于 `dist/`，可作为独立静态网站发布。
 
-更新模型后，运行项目根目录的：
+更新模型后，在项目根目录运行以下任一命令：
+
+macOS / Linux：
 
 ```bash
 ./scripts/refresh_web_data.sh
 ```
 
-或在已有 raw 缓存的情况下：
+Windows PowerShell：
+
+```powershell
+python scripts\refresh_web_data.py
+```
+
+已有 raw 缓存、无需连接数据库时，在相应命令后添加 `--skip-extract`。
 
 ```bash
 ./scripts/refresh_web_data.sh --skip-extract

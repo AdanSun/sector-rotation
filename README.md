@@ -126,7 +126,7 @@ pytest -q
 架构：**静态快照 + React 18 / TypeScript / Vite**。
 
 - 数据源 = **国金数据库**（阿里云 RDS，表每日更新）。
-- 数据流向 = 国金库 → `scripts/refresh_web_data.sh`（增量提取 + 重算模型 + 导出快照）→
+- 数据流向 = 国金库 → `scripts/refresh_web_data.py`（增量提取 + 重算模型 + 导出快照）→
   `frontend/public/data/*.json` → 前端直接读取。
 - 前端为**纯静态站点**：构建后任意静态托管即可打开，不依赖任何运行中的 API 服务。
 
@@ -135,16 +135,23 @@ pytest -q
 每次运行会依次：① 从国金库增量提取最新数据到 `data/raw/`；② 按模型流水线重算
 `data/processed/`；③ 导出前端 JSON 快照到 `frontend/public/data/`。
 
+macOS / Linux：
+
 ```bash
-# 完整刷新（推荐每月末执行一次；耗时取决于增量大小，首次全量约 30-60 分钟）
 ./scripts/refresh_web_data.sh
-
-# 只重算模型并导出（不连库，使用现有 data/raw 缓存）
 ./scripts/refresh_web_data.sh --skip-extract
-
-# 仅重新导出快照（不连库、不重算模型）
 ./scripts/refresh_web_data.sh --skip-model
 ```
+
+Windows PowerShell（推荐，功能完全相同）：
+
+```powershell
+python scripts\refresh_web_data.py
+python scripts\refresh_web_data.py --skip-extract
+python scripts\refresh_web_data.py --skip-model
+```
+
+也可运行 `scripts\refresh_web_data.bat`，或双击该文件。
 
 刷新完成后，重新构建前端（或直接刷新已打开页面）即可看到最新数据。
 
@@ -169,8 +176,8 @@ pip install -r requirements.txt
 cd frontend && npm install && cd ..
 
 # 3. 生成数据快照（首次必须；此后每月刷新一次）
-./scripts/refresh_web_data.sh --skip-extract   # 使用现有 raw 缓存生成快照
-# 或完整刷新：./scripts/refresh_web_data.sh
+./scripts/refresh_web_data.sh --skip-extract   # macOS / Linux
+# Windows：python scripts\refresh_web_data.py --skip-extract
 
 # 4. 启动前端（开发模式）
 cd frontend && npm run dev        # http://127.0.0.1:5174
@@ -241,7 +248,8 @@ cd frontend && npm run build
 ## 故障排查
 
 - 前端提示“数据快照缺失”：尚未运行刷新脚本，或 `frontend/public/data/` 为空。
-  执行 `./scripts/refresh_web_data.sh --skip-extract` 生成快照。
+  macOS / Linux 执行 `./scripts/refresh_web_data.sh --skip-extract`；Windows 执行
+  `python scripts\refresh_web_data.py --skip-extract`，以生成快照。
 - 刷新失败：查看终端输出的失败步骤；extract 需要 `.env` 中的国金库只读账号可用。
 - 数据滞后于预期：国金库各表更新时间不同，行情快、基本面慢属正常；重新运行完整刷新即可。
 - 端口占用：前端 `5173`（预览 `4173`），可在 vite.config.ts 调整。
