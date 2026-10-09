@@ -3,7 +3,32 @@ import warnings
 import numpy as np
 import pandas as pd
 
-from src.valuation_regression import ols_r2
+from src.valuation_regression import merge_factor_with_valuation_data, ols_r2
+
+
+def test_valuation_panel_uses_actual_dividend_yield_not_legacy_factor_value() -> None:
+    """红利策略的 DP 必须来自实际现金分红拆解表。"""
+
+    factor = pd.DataFrame(
+        {
+            "month_end": [pd.Timestamp("2026-02-28")],
+            "industry_old_code": ["7601010100"],
+            "roe_ttm": [8.0],
+            "dividend_yield": [np.nan],
+        }
+    )
+    valuation = pd.DataFrame(
+        {
+            "month_end": [pd.Timestamp("2026-02-28")],
+            "industry_old_code": ["7601010100"],
+            "pb": [1.5],
+            "dividend_yield": [0.023],
+        }
+    )
+
+    merged = merge_factor_with_valuation_data(factor, valuation)
+
+    assert merged.loc[0, "dividend_yield"] == 0.023
 
 
 def test_ols_r2_is_finite_for_large_but_finite_values() -> None:

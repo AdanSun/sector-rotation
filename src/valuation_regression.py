@@ -255,6 +255,23 @@ def _read_consensus_fy1_monthly(config: RegressionConfig, stock_monthly: pd.Data
     return matched.reset_index(drop=True)
 
 
+def merge_factor_with_valuation_data(factor: pd.DataFrame, valuation_base: pd.DataFrame) -> pd.DataFrame:
+    """合并因子与估值数据，并以实际现金分红口径的 DP 为准。
+
+    ``industry_factor_panel`` 曾保留一个历史 ``dividend_yield`` 列，但部分月度
+    该列并未覆盖；实际现金分红计算得到的行业 DP 位于
+    ``industry_return_decomposition``。红利策略应使用后者，否则 DP 全空会让
+    DP+ROE、DP+BP 两类评分在整月失效。
+    """
+
+    factor_without_legacy_dp = factor.drop(columns=["dividend_yield"], errors="ignore")
+    return factor_without_legacy_dp.merge(
+        valuation_base,
+        on=["month_end", "industry_old_code"],
+        how="left",
+    )
+
+
 def build_industry_valuation_regression_panel(config: RegressionConfig) -> pd.DataFrame:
     """构造行业月度估值回归面板。"""
 
@@ -273,7 +290,6 @@ def build_industry_valuation_regression_panel(config: RegressionConfig) -> pd.Da
             "industry_source_level",
             "growth_g",
             "roe_ttm",
-            "dividend_yield",
             "stock_count",
             "lifecycle_stage",
             "lifecycle_stage_zh",
@@ -281,9 +297,17 @@ def build_industry_valuation_regression_panel(config: RegressionConfig) -> pd.Da
     )
     valuation_base = pd.read_parquet(
         RETURN_DECOMP_PANEL,
-        columns=["month_end", "industry_old_code", "pb", "book_value", "total_mv", "market_value_yuan"],
+        columns=[
+            "month_end",
+            "industry_old_code",
+            "pb",
+            "book_value",
+            "total_mv",
+            "market_value_yuan",
+            "dividend_yield",
+        ],
     )
-    panel = factor.merge(valuation_base, on=["month_end", "industry_old_code"], how="left")
+    panel = merge_factor_with_valuation_data(factor, valuation_base)
 
     stock_monthly = _read_stock_valuation_monthly(config)
     consensus = _read_consensus_fy1_monthly(config, stock_monthly)

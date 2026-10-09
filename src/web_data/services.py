@@ -205,11 +205,12 @@ def get_overview() -> dict[str, Any]:
         )
         holding_count = _int_or_none(decision.get("selected_count"))
 
-    # 推荐摘要：最新月份全部子策略推荐，按得分排序取前 10
+    # 推荐摘要：总览需展示五类风格各自的 Top 5，不能在跨策略排序后截断，
+    # 否则字典序靠后的盈利能力、质量红利和价值红利会被误显示为“无数据”。
     recommendations: list[RecommendationItem] = []
     try:
         rec = _build_recommendations(
-            month=None, level=2, strategy=None, asset_type=None, limit=10, mode="detail"
+            month=None, level=2, strategy=None, asset_type=None, limit=35, mode="detail"
         )
         recommendations = rec["items"]
     except repo.DataFileError:
